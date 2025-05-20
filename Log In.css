@@ -1,0 +1,188 @@
+/*h1 "style"*/
+
+
+p{
+    text-align: left;
+    margin: 8px;
+}
+h3{
+    margin: 20px;
+    text-align: left;
+}
+header {
+    margin-top: 0px;
+    background: #2c2c44;
+    z-index: 1;
+    padding: 20px;
+    position: relative;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+
+.wallpaper {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -3;
+    
+  }
+  
+  /* Image that fits screen */
+  .wallpaper img {
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+  }
+
+
+
+/*Log In Container*/
+
+
+.wrapper{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+ .Login-box{
+  position: relative;
+  width: 450px;
+  height: auto;
+  backdrop-filter: blur(2px);
+  padding: 30px;
+  background: #2c2c4499;
+  border: 2px solid rgba(120, 180, 255, 0.7);
+  border-radius: 30px;
+ }
+
+ .Login-box:hover{
+    position: relative;
+    background: #0b0031b3; /* dark semi-transparent */
+    border-radius: 30px;
+    color: #fff;
+    z-index: 10;
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(120, 180, 255, 0.7);
+    box-shadow:
+      0 0 30px rgba(144, 194, 255, 0.5),
+      0 0 60px rgba(255, 6, 93, 0.3),
+      0 0 100px rgba(152, 221, 255, 0.2);
+ }
+
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-box{
+  padding: 15px;
+  row-gap: 10px;
+  display: inline-block;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 10px;
+
+}
+
+.input-field{
+  width: 350px;
+  height: 40px;
+  border: 1.5px solid rgba(120, 180, 255, 0.7);
+  border-radius: 10px;
+  background-color: color(srgb red green blue); 
+
+}
+
+/*remember me*/
+.remember{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  color: white;
+  margin-left: 6px;
+  font-weight: 100;
+  margin-bottom: -15px;
+}
+input{
+  padding: 20px;
+
+}
+.forgot{
+   text-align: center;
+   padding: 0;
+   margin-bottom: -12px;
+}
+a{
+  color: rgb(227, 209, 255);
+  text-decoration: none;
+  padding: 0%;
+}
+/*linksssssssssssssss*/
+a:hover{
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(255, 203, 70);
+  transition: 0.3s;
+}
+
+a:active{
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(246, 160, 255);
+  opacity: 0.5;
+}
+
+/*This is login button*/
+.input-submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.submit{
+  border-radius: 10px;
+  width: 345px;
+  padding: 10px;
+  border: 3px ;
+  font-weight: 750;
+}
+.submit:hover{
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  background-color: rgb(69, 19, 118);
+}
+.submit:active{
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 19, 118);
+  opacity: 0.1;
+}
+.account-wala{
+  text-align: center;
+  margin-top: -15px;
+  color: white;
+}
+
+footer {
+  background: #000000;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}

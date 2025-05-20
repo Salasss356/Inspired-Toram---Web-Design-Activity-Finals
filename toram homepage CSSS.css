@@ -1,0 +1,56 @@
+body{
+    background-image: url(toram\ background\ 3.jpg);
+    background-size: cover;
+    background-position: center bottom -350px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.logo{
+    height: 100px;
+    margin-right: 750px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    position: relative;
+    left: 112px;
+}
+
+.button{
+    display: grid;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    width: 300px;
+    background-color: rgb(31, 48, 143);
+    border: 0px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color:  rgb(31, 48, 143);
+}
+
+.button:active{
+    transform: scale(1.1);
+    background-color:  rgba(31, 48, 143, 0.265);
+    color:  rgb(255, 255, 255);
+}
+
+.position-button{
+    display: grid;
+    justify-content: center;
+    margin-top: 400px;
+    gap: 30px;
+    position: relative;
+    right: 970px;
+}

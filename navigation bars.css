@@ -1,0 +1,42 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 150vh;
+}
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: #343450;
+    border-radius: 30px;
+}
+nav a {
+   position: relative;
+   display: inline-block;
+   font-size: 1em;
+   font-weight: 500;
+   color: rgb(205, 220, 255);
+   text-decoration: none;
+   padding: 0 80px;
+   z-index: 1;
+}
+nav a:hover{
+    transition: ease-in-out 0.3s;
+    transform: scale(1.5);
+    color: rgb(246, 255, 0);
+    font-style: bold;
+}

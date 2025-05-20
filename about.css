@@ -1,0 +1,65 @@
+/*h1 "style"*/
+
+
+p{
+    text-align: left;
+    margin: 8px;
+}
+h3{
+    margin: 20px;
+    text-align: left;
+}
+header {
+    margin-top: 0px;
+    background: #2c2c44;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .text-box1 {
+    position: relative;
+    margin: 80px auto;
+    padding: 90px 80px;
+    max-width: 1000px;
+    background: #0b0031b3; /* dark semi-transparent */
+    border-radius: 30px;
+    color: #fff;
+    z-index: 10;
+    box-shadow: 0 50px 20px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(120, 180, 255, 0.7);
+    box-shadow:
+      0 0 30px rgba(144, 194, 255, 0.5),
+      0 0 60px rgba(255, 6, 93, 0.3),
+      0 0 100px rgba(152, 221, 255, 0.2);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+
+.wallpaper {
+    position: fixed; /* changed to fixed so it stays behind */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -2;
+    
+  }
+  
+  /* Image that fits screen */
+  .wallpaper img {
+    width: 100%;
+    height: auto;
+    object-fit:cover
+  }
+footer {
+  background: #000000;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
